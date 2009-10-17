@@ -12,7 +12,7 @@ public class TestUninitializedFieldsIntoFinal {
 	final float g = 0.0f;
 	final double h = 0.0d;
 	final short i = 0;
-	final long j = 0;
+	final long j = 0L;
 	final String k = "";
 	final Object l = null;
 	
