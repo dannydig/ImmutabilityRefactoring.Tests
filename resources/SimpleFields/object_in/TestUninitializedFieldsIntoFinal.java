@@ -27,6 +27,6 @@ public class TestUninitializedFieldsIntoFinal {
 	
 	// Check that it adds an initialization of o to a second constructor so that it is initialized in all cases
 	TestUninitializedFieldsIntoFinal(float irrelevant) {
-			
+		
 	}
 }
