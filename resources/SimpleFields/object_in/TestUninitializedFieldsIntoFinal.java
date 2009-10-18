@@ -25,8 +25,30 @@ public class TestUninitializedFieldsIntoFinal {
 		this.o = o;
 	}
 	
-	// Check that it adds an initialization of o to a second constructor so that it is initialized in all cases
-	TestUninitializedFieldsIntoFinal(float irrelevant) {
-		
+	// Check that it adds correct initialization of the following variables to the previous constructor so that they 
+	// are initialized in all cases
+	int p;
+	boolean q;
+	byte r;
+	char s; 
+	float t;
+	double u;
+	short v;
+	long w;
+	String x;
+	Object y;
+	TestUninitializedFieldsIntoFinal(int o, int p, boolean q, byte r, char s, float t, double u, 
+	                                 short v, long w, String x, Object y) {
+		this.o = o;
+		this.p = p;
+		this.q = q;
+		this.r = r;
+		this.s = s;
+		this.t = t;
+		this.u = u;
+		this.v = v;
+		this.w = w;
+		this.x = x;
+		this.y = y;
 	}
 }
