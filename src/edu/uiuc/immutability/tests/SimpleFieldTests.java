@@ -125,4 +125,8 @@ public class SimpleFieldTests extends AbstractSelectionTestCase {
 	public void testUninitializedFieldsIntoFinal() throws Exception {
 		objectTest("TestUninitializedFieldsIntoFinal");
 	}	
+	
+	public void testReplaceSimpleSetterWithFactoryMethod() throws Exception {
+		objectTest("TestReplaceSimpleSetterWithFactoryMethod");
+	}
 }
