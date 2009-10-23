@@ -8,6 +8,8 @@ public class TestReplaceSimpleSetterWithFactoryMethod{
 	}
 	
 	TestReplaceSimpleSetterWithFactoryMethod setI(int anInt) {
+		System.out.println();
+		System.out.println();
 		return new TestReplaceSimpleSetterWithFactoryMethod(anInt);
 	}
 }
