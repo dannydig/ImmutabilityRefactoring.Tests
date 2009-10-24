@@ -138,7 +138,7 @@ public class SimpleFieldTests extends AbstractSelectionTestCase {
 		objectTest("TestReplaceSimpleSetterWithFactoryMethodSeveralFields");
 	}
 	
-	public void testReplaceSetterWithMultipleFields() throws Exception {
-		objectTest("TestReplaceSetterWithMultipleFields");
+	public void testReplaceSetterWithoutConstructorMultipleFields() throws Exception {
+		objectTest("TestReplaceSetterWithoutConstructorMultipleFields");
 	}
 }

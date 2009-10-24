@@ -1,9 +1,9 @@
 package object_in;
 
-public class TestReplaceSimpleSetterWithFactoryMethod{
+public class TestReplaceSetterWithoutConstructorMultipleFields {
 	int i, j, k;
 	
-	public TestReplaceSetterWithMultipleFields() {
+	public TestReplaceSetterWithoutConstructorMultipleFields() {
 		this.i = 0;
 		this.j = 0;
 		this.k = 0;
