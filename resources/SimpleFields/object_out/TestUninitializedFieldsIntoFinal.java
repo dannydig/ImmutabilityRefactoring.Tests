@@ -13,7 +13,7 @@ public class TestUninitializedFieldsIntoFinal {
 	final double h = 0.0d;
 	final short i = 0;
 	final long j = 0L;
-	final String k = "";
+	final String k = null;
 	final Object l = null;
 	
 	// Check that it does not destroy the present initialization in a list where only one is initialized
@@ -31,7 +31,7 @@ public class TestUninitializedFieldsIntoFinal {
 		this.u = 0.0d;
 		this.v = 0;
 		this.w = 0L;
-		this.x = "";
+		this.x = null;
 		this.y = null;
 	}
 	
