@@ -16,6 +16,6 @@ public class TestReplaceSetterWithoutConstructorMultipleFields {
 	}
 	
 	TestReplaceSetterWithoutConstructorMultipleFields setI(int anInt) {
-		return new TestReplaceSetterWithoutConstructorMultipleFields(anInt, this.j, this.k);
+		return new TestReplaceSetterWithoutConstructorMultipleFields(this.i, anInt, this.k);
 	}
 }

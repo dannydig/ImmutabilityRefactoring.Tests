@@ -10,6 +10,6 @@ public class TestReplaceSetterWithoutConstructorMultipleFields {
 	}
 	
 	void setI(int anInt) {
-		this.i = anInt;
+		this.j = anInt;
 	}
 }
