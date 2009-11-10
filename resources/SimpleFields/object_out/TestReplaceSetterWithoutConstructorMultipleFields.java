@@ -1,7 +1,7 @@
 package object_out;
 
 public class TestReplaceSetterWithoutConstructorMultipleFields {
-	final int i, j, k;
+	private final int i, j, k;
 	
 	public TestReplaceSetterWithoutConstructorMultipleFields() {
 		this.i = 0;

@@ -145,4 +145,8 @@ public class SimpleFieldTests extends AbstractSelectionTestCase {
 	public void testReplaceSetterWithoutConstructor() throws Exception {
 		objectTest("TestReplaceSetterWithoutConstructor");
 	}
+	
+	//public void testReplaceSetterWithoutConstructorAtAll() throws Exception {
+		//objectTest("TestReplaceSetterWithoutConstructorAtAll");
+	//}
 }

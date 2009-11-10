@@ -1,7 +1,7 @@
 package object_out;
 
 public class TestReplaceSetterWithoutConstructor {
-	final int i;
+	private final int i;
 	
 	public TestReplaceSetterWithoutConstructor() {
 		this.i = 0;

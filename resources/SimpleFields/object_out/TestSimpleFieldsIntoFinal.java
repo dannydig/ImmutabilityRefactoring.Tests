@@ -1,7 +1,7 @@
 package object_out;
 
 public class TestSimpleFieldsIntoFinal{
-	final int i = 10, j = 20;
-	final float y = 2.0f;
-	final String s = "Test";
+	private final int i = 10, j = 20;
+	private final float y = 2.0f;
+	private final String s = "Test";
 }

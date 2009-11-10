@@ -1,7 +1,7 @@
 package object_out;
 
 public class TestReplaceSimpleSetterWithFactoryMethodSeveralFields {
-	final int i, j;
+	private final int i, j;
 	
 	public TestReplaceSimpleSetterWithFactoryMethodSeveralFields(int i, int j) {
 		this.i = i;

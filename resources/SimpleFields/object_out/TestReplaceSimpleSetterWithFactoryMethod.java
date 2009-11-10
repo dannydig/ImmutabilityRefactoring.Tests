@@ -1,7 +1,7 @@
 package object_out;
 
 public class TestReplaceSimpleSetterWithFactoryMethod{
-	final int i;
+	private final int i;
 	
 	public TestReplaceSimpleSetterWithFactoryMethod(int anInt) {
 		i = anInt;

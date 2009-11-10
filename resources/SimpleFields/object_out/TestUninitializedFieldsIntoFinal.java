@@ -2,25 +2,25 @@ package object_out;
 
 public class TestUninitializedFieldsIntoFinal {
 	
-	final int a = 0;
-	final int b = 0, c = 0;
+	private final int a = 0;
+	private final int b = 0, c = 0;
 	
 	// Check non-ints
-	final boolean d = false;
-	final byte e = 0;
-	final char f = '\0'; 
-	final float g = 0.0f;
-	final double h = 0.0d;
-	final short i = 0;
-	final long j = 0L;
-	final String k = null;
-	final Object l = null;
+	private final boolean d = false;
+	private final byte e = 0;
+	private final char f = '\0'; 
+	private final float g = 0.0f;
+	private final double h = 0.0d;
+	private final short i = 0;
+	private final long j = 0L;
+	private final String k = null;
+	private final Object l = null;
 	
 	// Check that it does not destroy the present initialization in a list where only one is initialized
-	final int m = 0, n = 42;
+	private final int m = 0, n = 42;
 	
 	// Check that it does not initialize values that are initialized in a constructor
-	final int o;
+	private final int o;
 	TestUninitializedFieldsIntoFinal(int o) {
 		this.o = o;
 		this.p = 0;
@@ -37,16 +37,16 @@ public class TestUninitializedFieldsIntoFinal {
 	
 	// Check that it adds correct initialization of the following variables to the previous constructor so that they 
 	// are initialized in all cases
-	final int p;
-	final boolean q;
-	final byte r;
-	final char s; 
-	final float t;
-	final double u;
-	final short v;
-	final long w;
-	final String x;
-	final Object y;
+	private final int p;
+	private final boolean q;
+	private final byte r;
+	private final char s; 
+	private final float t;
+	private final double u;
+	private final short v;
+	private final long w;
+	private final String x;
+	private final Object y;
 	TestUninitializedFieldsIntoFinal(int o, int p, boolean q, byte r, char s, float t, double u, 
 	                                 short v, long w, String x, Object y) {
 		this.o = o;
