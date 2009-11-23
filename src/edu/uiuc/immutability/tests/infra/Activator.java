@@ -1,4 +1,4 @@
-package edu.uiuc.immutability.tests;
+package edu.uiuc.immutability.tests.infra;
 
 import java.io.File;
 import java.io.IOException;

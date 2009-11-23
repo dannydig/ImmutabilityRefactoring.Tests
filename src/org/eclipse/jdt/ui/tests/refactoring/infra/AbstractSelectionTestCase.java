@@ -13,7 +13,7 @@ package org.eclipse.jdt.ui.tests.refactoring.infra;
 import java.io.IOException;
 import java.io.InputStream;
 
-import edu.uiuc.immutability.tests.Activator;
+import edu.uiuc.immutability.tests.infra.Activator;
 
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IProgressMonitor;

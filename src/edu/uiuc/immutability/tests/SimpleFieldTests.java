@@ -4,6 +4,7 @@ import junit.framework.Test;
 import junit.framework.TestSuite;
 
 import edu.uiuc.immutability.MakeImmutableRefactoring;
+import edu.uiuc.immutability.tests.infra.TestSetup;
 
 import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.core.runtime.Preferences;

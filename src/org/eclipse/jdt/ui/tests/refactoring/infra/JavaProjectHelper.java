@@ -51,7 +51,7 @@ import org.eclipse.jdt.internal.ui.JavaPlugin;
 import org.eclipse.jdt.internal.ui.util.CoreUtility;
 import org.eclipse.ui.dialogs.IOverwriteQuery;
 
-import edu.uiuc.immutability.tests.Activator;
+import edu.uiuc.immutability.tests.infra.Activator;
 
 /**
  * Helper methods to set up a IJavaProject.
