@@ -113,6 +113,18 @@ public class RewriteMutatorsTests extends AbstractSelectionTestCase {
 	public void testReplaceSimpleSetterWithFactoryMethod() throws Exception {
 		objectTest("TestReplaceSimpleSetterWithFactoryMethod");
 	}
+
+	public void testReplaceSimpleSetter() throws Exception {
+		objectTest("TestReplaceSimpleSetter");
+	}
+	
+	public void testReplaceSimpleSetter2() throws Exception {
+		objectTest("TestReplaceSimpleSetter2");
+	}
+	
+	public void testReplaceSimpleInitializedSetter() throws Exception {
+		objectTest("TestReplaceSimpleInitializedSetter");
+	}
 	
 	public void testReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis() throws Exception {
 		objectTest("TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis");
@@ -128,5 +140,9 @@ public class RewriteMutatorsTests extends AbstractSelectionTestCase {
 	
 	public void testReplaceSetterWithoutConstructor() throws Exception {
 		objectTest("TestReplaceSetterWithoutConstructor");
+	}
+	
+	public void testReplaceNestedSetters() throws Exception {
+		objectTest("testReplaceNestedSetters");
 	}
 }

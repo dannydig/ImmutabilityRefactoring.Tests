@@ -125,28 +125,4 @@ public class SimpleFieldTests extends AbstractSelectionTestCase {
 	public void testUninitializedFieldsIntoFinal() throws Exception {
 		objectTest("TestUninitializedFieldsIntoFinal");
 	}	
-	
-	public void testReplaceSimpleSetterWithFactoryMethod() throws Exception {
-		objectTest("TestReplaceSimpleSetterWithFactoryMethod");
-	}
-	
-	public void testReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis() throws Exception {
-		objectTest("TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis");
-	}
-	
-	public void testReplaceSimpleSetterWithFactoryMethodSeveralFields() throws Exception {
-		objectTest("TestReplaceSimpleSetterWithFactoryMethodSeveralFields");
-	}
-	
-	public void testReplaceSetterWithoutConstructorMultipleFields() throws Exception {
-		objectTest("TestReplaceSetterWithoutConstructorMultipleFields");
-	}
-	
-	public void testReplaceSetterWithoutConstructor() throws Exception {
-		objectTest("TestReplaceSetterWithoutConstructor");
-	}
-	
-	//public void testReplaceSetterWithoutConstructorAtAll() throws Exception {
-		//objectTest("TestReplaceSetterWithoutConstructorAtAll");
-	//}
 }
