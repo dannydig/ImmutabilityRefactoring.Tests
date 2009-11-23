@@ -3,14 +3,14 @@ package object_out;
 public class TestReplaceSimpleInitializedSetter {
 	private final int i;
 	
-	TestReplaceSimpleInitializedSetter() {
+	public TestReplaceSimpleInitializedSetter() {
 		this.i = 42;
 	}
 
-	TestReplaceSimpleInitializedSetter(int i) {
+	public TestReplaceSimpleInitializedSetter(int i) {
 		this.i = i;
 	}
-	
+
 	TestReplaceSimpleInitializedSetter setI(int i) {
 		return new TestReplaceSimpleInitializedSetter(i);
 	}
