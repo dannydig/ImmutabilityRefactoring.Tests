@@ -1,21 +1,28 @@
-public class Test {
+package object_out;
+
+public class TestReplaceNestedSetters {
 	private final int x, y;
 	
-	public Test(int x, int y) {
+	public TestReplaceNestedSetters() {
+		this.x = 0;
+		this.y = 0;
+	}
+
+	public TestReplaceNestedSetters(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
 
-	Test setX(int x) {
-		return new Test(x, this.y); 
+	TestReplaceNestedSetters setX(int x) {
+		return new TestReplaceNestedSetters(x, this.y); 
 	}
 	
-	Test setY(int y) {
-		return new Test(this.x, y);
+	TestReplaceNestedSetters setY(int y) {
+		return new TestReplaceNestedSetters(this.x, y);
 	}
 	
-	void moveTo(int x, int y) {
-		setX(x);
-		setY(y);
+	TestReplaceNestedSetters moveTo(int x, int y) {
+		TestReplaceNestedSetters tmp = setX(x);
+		return tmp.setY(y);
 	}
 }

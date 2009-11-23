@@ -144,6 +144,6 @@ public class RewriteMutatorsTests extends AbstractSelectionTestCase {
 	}
 	
 	public void testReplaceNestedSetters() throws Exception {
-		objectTest("testReplaceNestedSetters");
+		objectTest("TestReplaceNestedSetters");
 	}
 }
