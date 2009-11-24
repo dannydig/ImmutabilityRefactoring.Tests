@@ -17,16 +17,16 @@ import org.eclipse.jdt.core.JavaModelException;
 import org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase;
 import org.eclipse.ltk.core.refactoring.RefactoringStatus;
 
-public class RewriteMutatorsTests extends AbstractSelectionTestCase {
+public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 
 	private static TestSetup fgTestSetup;
 	
-	public RewriteMutatorsTests(String name) {
+	public RewriteSimpleMutatorsTests(String name) {
 		super(name);
 	}
 	
 	public static Test suite() {
-		fgTestSetup= new TestSetup(new TestSuite(RewriteMutatorsTests.class));
+		fgTestSetup= new TestSetup(new TestSuite(RewriteSimpleMutatorsTests.class));
 		return fgTestSetup;
 	}
 	
@@ -41,7 +41,7 @@ public class RewriteMutatorsTests extends AbstractSelectionTestCase {
 	}
 
 	protected String getResourceLocation() {
-		return "RewriteMutators/";
+		return "RewriteSimpleMutators/";
 	}
 	
 	protected String adaptName(String name) {
@@ -141,9 +141,5 @@ public class RewriteMutatorsTests extends AbstractSelectionTestCase {
 	
 	public void testReplaceSetterWithoutConstructor() throws Exception {
 		objectTest("TestReplaceSetterWithoutConstructor");
-	}
-	
-	public void testReplaceNestedSetters() throws Exception {
-		objectTest("TestReplaceNestedSetters");
 	}
 }
