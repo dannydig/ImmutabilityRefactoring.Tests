@@ -1,9 +1,9 @@
 package object_in;
 
-public class TestReplaceSimpleSetterWithFactoryMethod{
+public class TestReplaceSetterWithTrailingCode {
 	int i;
 	
-	public TestReplaceSimpleSetterWithFactoryMethod(int anInt) {
+	public TestReplaceSetterWithTrailingCode(int anInt) {
 		i = anInt;
 	}
 	

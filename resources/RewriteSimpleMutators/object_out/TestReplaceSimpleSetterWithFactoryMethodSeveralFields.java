@@ -9,8 +9,6 @@ public class TestReplaceSimpleSetterWithFactoryMethodSeveralFields {
 	}
 	
 	TestReplaceSimpleSetterWithFactoryMethodSeveralFields setI(int anInt) {
-		System.out.println();
-		System.out.println();
 		return new TestReplaceSimpleSetterWithFactoryMethodSeveralFields(anInt, anInt);
 	}
 }

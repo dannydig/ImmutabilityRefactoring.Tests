@@ -1,15 +1,14 @@
 package object_in;
 
 public class TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis {
-	int i;
+	int i, j;
 	
-	public TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis(int anInt) {
-		this.i = anInt;
+	public TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis(int i, int j) {
+		this.i = i;
+		this.j = j;
 	}
 	
 	void setI(int anInt) {
-		System.out.println();
-		this.i = anInt;
-		System.out.println();
+		this.i = this.j = anInt;
 	}
 }

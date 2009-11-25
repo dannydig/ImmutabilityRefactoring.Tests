@@ -1,15 +1,14 @@
 package object_out;
 
 public class TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis {
-	private final int i;
+	private final int i, j;
 	
-	public TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis(int anInt) {
-		this.i = anInt;
+	public TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis(int i, int j) {
+		this.i = i;
+		this.j = j;
 	}
 	
 	TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis setI(int anInt) {
-		System.out.println();
-		System.out.println();
-		return new TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis(anInt);
+		return new TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis(anInt, anInt);
 	}
 }

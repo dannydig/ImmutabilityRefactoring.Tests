@@ -111,9 +111,6 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 	//=====================================================================================
 	
 	// === General tests ===	
-	public void testReplaceSimpleSetterWithFactoryMethod() throws Exception {
-		objectTest("TestReplaceSimpleSetterWithFactoryMethod");
-	}
 
 	public void testReplaceSimpleSetter() throws Exception {
 		objectTest("TestReplaceSimpleSetter");
@@ -141,5 +138,9 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 	
 	public void testReplaceSetterWithoutConstructor() throws Exception {
 		objectTest("TestReplaceSetterWithoutConstructor");
+	}
+	
+	public void testReplaceSetterWithTrailingCode() throws Exception {
+		objectTest("TestReplaceSetterWithTrailingCode");
 	}
 }
