@@ -143,4 +143,8 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 	public void testAssignmentWithTrailingCode() throws Exception {
 		objectTest("TestAssignmentWithTrailingCode");
 	}
+	
+	public void testChainedAssignments() throws Exception {
+		objectTest("TestChainedAssignments");
+	}
 }
