@@ -9,8 +9,8 @@ public class TestChainedAssignments {
 	}
 
 	TestChainedAssignments init(int anInt) {
+		TestChainedAssignments _this = this;
 		System.out.println();
-		TestChainedAssignments _this;
 		_this = new TestChainedAssignments(this.i, anInt);
 		_this = new TestChainedAssignments(anInt, this.j);
 		System.out.println();

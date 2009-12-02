@@ -8,8 +8,8 @@ public class TestAssignmentWithTrailingCode {
 	}
 	
 	TestAssignmentWithTrailingCode setI(int anInt) {
+		TestAssignmentWithTrailingCode _this = this;
 		System.out.println();
-		TestAssignmentWithTrailingCode _this;
 		_this = new TestAssignmentWithTrailingCode(anInt);
 		System.out.println();
 		return _this;
