@@ -1,9 +1,9 @@
 package object_in;
 
-public class TestReplaceSetterWithTrailingCode {
+public class TestAssignmentWithTrailingCode {
 	int i;
 	
-	public TestReplaceSetterWithTrailingCode(int anInt) {
+	public TestAssignmentWithTrailingCode(int anInt) {
 		i = anInt;
 	}
 	
