@@ -118,4 +118,8 @@ public class RewriteNestedMutatorsTests extends AbstractSelectionTestCase {
 	public void testReplaceDeeplyNestedSetters() throws Exception {
 		objectTest("TestReplaceDeeplyNestedSetters");
 	}
+
+	public void testReplaceRecursiveNestedSetters() throws Exception {
+		objectTest("TestReplaceRecursiveNestedSetters");
+	}
 }
