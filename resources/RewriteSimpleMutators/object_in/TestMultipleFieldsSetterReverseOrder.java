@@ -1,10 +1,10 @@
 package object_in;
 
-public class TestMultipleFieldsSetter {
+public class TestMultipleFieldsSetterReverseOrder {
 	int i, j;
 
 	void setFields(int anInt1, int anInt2) {
 		j = anInt2;
-		i = anInt;
+		i = anInt1;
 	}
 }

@@ -1,8 +1,12 @@
 wpackage object_out;
 
 public class TestAssignmentWithTrailingFieldPrint {
-	private final int i = 0;
-	
+	private final int i;
+
+	public TestAssignmentWithTrailingFieldPrint() {
+		i = 0;
+	}
+
 	public TestAssignmentWithTrailingFieldPrint(int anInt) {
 		i = anInt;
 	}

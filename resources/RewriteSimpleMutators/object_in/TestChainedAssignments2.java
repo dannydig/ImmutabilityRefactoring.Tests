@@ -1,6 +1,6 @@
 package object_in;
 
-public class TestChainedAssignments {
+public class TestChainedAssignments2 {
 	int i, j;
 
 	void init(int anInt) {

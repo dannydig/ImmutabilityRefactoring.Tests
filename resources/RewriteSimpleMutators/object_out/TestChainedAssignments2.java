@@ -1,18 +1,23 @@
 package object_out;
 
-public class TestChainedAssignments {
+public class TestChainedAssignments2 {
 	private final int i, j;
 
-	public TestChainedAssignments(int i, int j) {
+	public TestChainedAssignments2() {
+		this.i = 0;
+		this.j = 0;
+	}
+
+	public TestChainedAssignments2(int i, int j) {
 		this.i = i;
 		this.j = j;
 	}
 
-	TestChainedAssignments init(int anInt) {
-		TestChainedAssignments _this = this;
+	TestChainedAssignments2 init(int anInt) {
+		TestChainedAssignments2 _this = this;
 		System.out.println();
-		_this = new TestChainedAssignments(this.i, anInt);
-		_this = new TestChainedAssignments(anInt, this.j);
+		_this = new TestChainedAssignments2(this.i, anInt);
+		_this = new TestChainedAssignments2(anInt, this.j);
 		System.out.println();
 		return _this;
 	}

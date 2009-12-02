@@ -1,6 +1,6 @@
 package object_in;
 
-public class TestReplaceSimpleInitializedSetter {
+public class TestSimpleInitializedSetter {
 	int i = 42;
 	
 	void setI(int i) {

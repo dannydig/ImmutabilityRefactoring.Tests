@@ -1,19 +1,19 @@
 package object_out;
 
-public class TestMultipleFieldsSetter {
+public class TestMultipleFieldsSetterReverseOrder {
 	private final int i, j;
 
-	public TestMultipleFieldsSetter(int i, int j) {
+	public TestMultipleFieldsSetterReverseOrder() {
 		this.i = 0;
 		this.j = 0;
 	}
 
-	public TestMultipleFieldsSetter(int i, int j) {
+	public TestMultipleFieldsSetterReverseOrder(int i, int j) {
 		this.i = i;
 		this.j = j;
 	}
 
-	TestMultipleFieldsSetter setFields(int anInt1, int anInt2) {
-		return new TestMultipleFieldsSetter(anInt1, anInt2);
+	TestMultipleFieldsSetterReverseOrder setFields(int anInt1, int anInt2) {
+		return new TestMultipleFieldsSetterReverseOrder(anInt1, anInt2);
 	}
 }

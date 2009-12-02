@@ -3,7 +3,7 @@ package object_out;
 public class TestMultipleFieldsSetter {
 	private final int i, j;
 
-	public TestMultipleFieldsSetter(int i, int j) {
+	public TestMultipleFieldsSetter() {
 		this.i = 0;
 		this.j = 0;
 	}

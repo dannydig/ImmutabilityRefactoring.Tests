@@ -1,7 +1,7 @@
 package object_in;
 
 public class TestAssignmentWithTrailingCode {
-	int i = 0;
+	int i;
 
 	public TestAssignmentWithTrailingCode(int anInt) {
 		i = anInt;

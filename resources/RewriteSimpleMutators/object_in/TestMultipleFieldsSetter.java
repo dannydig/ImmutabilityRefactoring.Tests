@@ -1,10 +1,10 @@
 package object_in;
 
 public class TestMultipleFieldsSetter {
-	int i, j;
+	int i = 0, j = 0;
 
 	void setFields(int anInt1, int anInt2) {
-		i = anInt;
+		i = anInt1;
 		j = anInt2;
 	}
 }

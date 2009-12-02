@@ -3,7 +3,7 @@ package object_out;
 public class TestMutatorWithCallExpressionsMultipleFields {
 	private final int i, j;
 
-	public TestMutatorWithCallExpressionsMultipleFields(int i, int j) {
+	public TestMutatorWithCallExpressionsMultipleFields() {
 		this.i = 0;
 		this.j = 0;
 	}

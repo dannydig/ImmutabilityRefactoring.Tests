@@ -1,7 +1,7 @@
 package object_in;
 
 public class TestAssignmentInConditional {
-	int i = 0;
+	int i;
 
 	public TestAssignmentInConditional(int anInt) {
 		i = anInt;

@@ -1,7 +1,11 @@
 wpackage object_out;
 
 public class TestAssignmentWithTrailingCode {
-	private final int i = 0;
+	private final int i;
+
+	public TestAssignmentWithTrailingCode() {
+		i = 0;
+	}
 
 	public TestAssignmentWithTrailingCode(int anInt) {
 		i = anInt;

@@ -1,17 +1,17 @@
 package object_out;
 
-public class TestReplaceSimpleInitializedSetter {
+public class TestSimpleInitializedSetter {
 	private final int i;
 	
-	public TestReplaceSimpleInitializedSetter() {
+	public TestSimpleInitializedSetter() {
 		this.i = 42;
 	}
 
-	public TestReplaceSimpleInitializedSetter(int i) {
+	public TestSimpleInitializedSetter(int i) {
 		this.i = i;
 	}
 
-	TestReplaceSimpleInitializedSetter setI(int i) {
-		return new TestReplaceSimpleInitializedSetter(i);
+	TestSimpleInitializedSetter setI(int i) {
+		return new TestSimpleInitializedSetter(i);
 	}
 }

@@ -1,7 +1,7 @@
 package object_in;
 
 public class TestAssignmentWithTrailingFieldPrint {
-	int i = 0;
+	int i;
 	
 	public TestAssignmentWithTrailingFieldPrint(int anInt) {
 		i = anInt;

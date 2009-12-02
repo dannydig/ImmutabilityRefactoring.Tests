@@ -1,8 +1,12 @@
 package object_out;
 
 public class TestAssignmentInConditional {
-	private final int i = 0;
-	
+	private final int i;
+
+	public TestAssignmentInConditional() {
+		i = 0;
+	}
+
 	public TestAssignmentInConditional(int anInt) {
 		i = anInt;
 	}

@@ -1,9 +1,9 @@
 package object_in;
 
-public class TestSetterWithoutDefaultConstructor {
+public class TestSetterWithoutDefaultConstructor2 {
 	int i = 0;
 
-	public TestSetterWithoutDefaultConstructor(int i) {
+	public TestSetterWithoutDefaultConstructor2(int i) {
 		this.i = i;
 	}
 

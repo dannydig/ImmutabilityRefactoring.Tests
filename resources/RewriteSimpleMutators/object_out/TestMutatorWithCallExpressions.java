@@ -3,7 +3,7 @@ package object_out;
 public class TestMutatorWithCallExpressions {
 	private final int i;
 
-	public TestMutatorWithCallExpressions(int i) {
+	public TestMutatorWithCallExpressions() {
 		this.i = 0;
 	}
 
@@ -17,6 +17,6 @@ public class TestMutatorWithCallExpressions {
 	}
 
 	TestMutatorWithCallExpressions mutateFields() {
-		return TestMutatorWithCallExpressions(getInt());
+		return new TestMutatorWithCallExpressions(getInt());
 	}
 }
