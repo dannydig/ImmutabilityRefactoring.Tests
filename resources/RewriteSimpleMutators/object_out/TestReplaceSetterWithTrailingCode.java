@@ -8,10 +8,10 @@ public class TestReplaceSetterWithTrailingCode {
 	}
 	
 	TestReplaceSetterWithTrailingCode setI(int anInt) {
-		int tmp_i;
 		System.out.println();
-		tmp_i = anInt;
+		TestReplaceSetterWithTrailingCode _this;
+		_this = new TestReplaceSetterWithTrailingCode(anInt);
 		System.out.println();
-		return new TestReplaceSetterWithTrailingCode(tmp_i);
+		return _this;
 	}
 }
