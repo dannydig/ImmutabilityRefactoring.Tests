@@ -155,6 +155,10 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 	public void testSetterWithoutDefaultConstructor() throws Exception {
 		objectTest("TestSetterWithoutDefaultConstructor");
 	}
+	
+	public void testSetterWithoutDefaultConstructor2() throws Exception {
+		objectTest("TestSetterWithoutDefaultConstructor2");
+	}
 
 	public void testChainedAssignments() throws Exception {
 		objectTest("TestChainedAssignments");
