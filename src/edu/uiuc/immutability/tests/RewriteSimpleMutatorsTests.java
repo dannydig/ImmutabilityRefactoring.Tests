@@ -112,24 +112,24 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 	
 	// === General tests ===	
 
-	public void testReplaceSimpleSetter() throws Exception {
-		objectTest("TestReplaceSimpleSetter");
+	public void testSimpleSetter() throws Exception {
+		objectTest("TestSimpleSetter");
 	}
 	
-	public void testReplaceSimpleSetter2() throws Exception {
-		objectTest("TestReplaceSimpleSetter2");
+	public void testSimpleSetter2() throws Exception {
+		objectTest("TestSimpleSetter2");
 	}
 	
-	public void testReplaceSimpleInitializedSetter() throws Exception {
-		objectTest("TestReplaceSimpleInitializedSetter");
+	public void testSimpleInitializedSetter() throws Exception {
+		objectTest("TestSimpleInitializedSetter");
 	}
 	
-	public void testReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis() throws Exception {
-		objectTest("TestReplaceSimpleSetterWithFactoryMethodSeveralFieldsWithThis");
+	public void testChainedSetterWithThis() throws Exception {
+		objectTest("TestChainedSetterWithThis");
 	}
 	
-	public void testReplaceSimpleSetterWithFactoryMethodSeveralFields() throws Exception {
-		objectTest("TestReplaceSimpleSetterWithFactoryMethodSeveralFields");
+	public void TestChainedSetter() throws Exception {
+		objectTest("testChainedSetter");
 	}
 	
 	public void testMultipleFieldsSingleSetter() throws Exception {
