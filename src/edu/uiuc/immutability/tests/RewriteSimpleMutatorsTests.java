@@ -136,8 +136,8 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 		objectTest("TestReplaceSetterWithoutConstructorMultipleFields");
 	}
 	
-	public void testReplaceSetterWithoutConstructor() throws Exception {
-		objectTest("TestReplaceSetterWithoutConstructor");
+	public void testSetterWithoutFullConstructor() throws Exception {
+		objectTest("TestSetterWithoutFullConstructor");
 	}
 	
 	public void testAssignmentWithTrailingCode() throws Exception {
