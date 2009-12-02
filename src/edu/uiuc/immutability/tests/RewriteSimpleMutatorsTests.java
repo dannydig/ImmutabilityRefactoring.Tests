@@ -123,13 +123,25 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 	public void testSimpleInitializedSetter() throws Exception {
 		objectTest("TestSimpleInitializedSetter");
 	}
+		
+	public void TestChainedSetter() throws Exception {
+		objectTest("testChainedSetter");
+	}
 	
 	public void testChainedSetterWithThis() throws Exception {
 		objectTest("TestChainedSetterWithThis");
 	}
 	
-	public void TestChainedSetter() throws Exception {
-		objectTest("testChainedSetter");
+	public void testMultipleFieldsSetter() throws Exception {
+		objectTest("TestMultipleFieldsSetter");
+	}
+	
+	public void testMultipleFieldsSetterReverseOrder() throws Exception {
+		objectTest("TestMultipleFieldsSetterReverseOrder");
+	}
+	
+	public void testMultipleFieldsSetterWithThis() throws Exception {
+		objectTest("TestMultipleFieldsSetterWithThis");
 	}
 	
 	public void testMultipleFieldsSingleSetter() throws Exception {
