@@ -139,7 +139,11 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 	public void testSetterWithoutFullConstructor() throws Exception {
 		objectTest("TestSetterWithoutFullConstructor");
 	}
-	
+
+	public void testSetterWithoutDefaultConstructor() throws Exception {
+		objectTest("TestSetterWithoutDefaultConstructor");
+	}
+
 	public void testAssignmentWithTrailingCode() throws Exception {
 		objectTest("TestAssignmentWithTrailingCode");
 	}
