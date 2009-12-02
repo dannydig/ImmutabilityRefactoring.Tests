@@ -176,6 +176,10 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 		objectTest("TestAssignmentWithTrailingCode");
 	}
 	
+	public void testAssignmentWithTrailingFieldPrint() throws Exception {
+		objectTest("TestAssignmentWithTrailingFieldPrint");
+	}
+	
 	public void testAssignmentInConditional() throws Exception {
 		objectTest("TestAssignmentInConditional");
 	}
