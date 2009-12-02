@@ -1,12 +1,12 @@
 wpackage object_out;
 
 public class TestAssignmentWithTrailingCode {
-	private final int i;
-	
+	private final int i = 0;
+
 	public TestAssignmentWithTrailingCode(int anInt) {
 		i = anInt;
 	}
-	
+
 	TestAssignmentWithTrailingCode setI(int anInt) {
 		TestAssignmentWithTrailingCode _this = this;
 		System.out.println();

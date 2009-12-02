@@ -13,9 +13,9 @@ public class TestMutatorWithCallExpressionsMultipleFields {
 		this.j = j;
 	}
 
-	int getI() { return i; }
+	public int getI() { return i; }
 
-	int getInt() { 
+	public int getInt() { 
 		System.out.println("Returning int");
 		return 42;
 	}

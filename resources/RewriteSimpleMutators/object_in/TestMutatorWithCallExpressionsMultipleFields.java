@@ -3,7 +3,7 @@ package object_in;
 public class TestMutatorWithCallExpressionsMultipleFields {
 	int i, j;
 
-	int getInt() { 
+	public int getInt() { 
 		System.out.println("Returning int");
 		return 42;
 	}

@@ -156,10 +156,6 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 		objectTest("TestSetterWithoutDefaultConstructor");
 	}
 
-	public void testAssignmentWithTrailingCode() throws Exception {
-		objectTest("TestAssignmentWithTrailingCode");
-	}
-	
 	public void testChainedAssignments() throws Exception {
 		objectTest("TestChainedAssignments");
 	}
@@ -167,12 +163,20 @@ public class RewriteSimpleMutatorsTests extends AbstractSelectionTestCase {
 	public void testChainedAssignments2() throws Exception {
 		objectTest("TestChainedAssignments2");
 	}
-	
+		
 	public void testMutatorWithCallExpressions() throws Exception {
 		objectTest("TestMutatorWithCallExpressions");
 	}
 	
 	public void testMutatorWithCallExpressionsMultipleFields() throws Exception {
 		objectTest("TestMutatorWithCallExpressionsMultipleFields");
+	}
+	
+	public void testAssignmentWithTrailingCode() throws Exception {
+		objectTest("TestAssignmentWithTrailingCode");
+	}
+	
+	public void testAssignmentInConditional() throws Exception {
+		objectTest("TestAssignmentInConditional");
 	}
 }

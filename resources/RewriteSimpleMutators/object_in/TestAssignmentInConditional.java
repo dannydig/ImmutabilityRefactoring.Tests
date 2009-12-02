@@ -1,15 +1,17 @@
 package object_in;
 
-public class TestAssignmentWithTrailingCode {
+public class TestAssignmentInConditional {
 	int i = 0;
 
-	public TestAssignmentWithTrailingCode(int anInt) {
+	public TestAssignmentInConditional(int anInt) {
 		i = anInt;
 	}
 
 	void setI(int anInt) {
 		System.out.println();
-		i = anInt;
+		if (i == 0) {
+			i = anInt;
+		}
 		System.out.println();
 	}
 }
