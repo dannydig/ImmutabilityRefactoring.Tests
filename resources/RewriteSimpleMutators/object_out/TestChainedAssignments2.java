@@ -16,8 +16,7 @@ public class TestChainedAssignments2 {
 	TestChainedAssignments2 init(int anInt) {
 		TestChainedAssignments2 _this = this;
 		System.out.println();
-		_this = new TestChainedAssignments2(this.i, anInt);
-		_this = new TestChainedAssignments2(anInt, this.j);
+		_this = new TestChainedAssignments2(anInt, anInt);
 		System.out.println();
 		return _this;
 	}

@@ -4,7 +4,7 @@ public class TestAssignmentWithTrailingCode {
 	private final int i;
 
 	public TestAssignmentWithTrailingCode() {
-		i = 0;
+		this.i = 0;
 	}
 
 	public TestAssignmentWithTrailingCode(int anInt) {

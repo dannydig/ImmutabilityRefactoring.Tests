@@ -1,10 +1,10 @@
-wpackage object_out;
+package object_out;
 
 public class TestAssignmentWithTrailingMethodCalls {
 	private final int i;
 
 	public TestAssignmentWithTrailingMethodCalls() {
-		i = 0;
+		this.i = 0;
 	}
 
 	public TestAssignmentWithTrailingMethodCalls(int anInt) {

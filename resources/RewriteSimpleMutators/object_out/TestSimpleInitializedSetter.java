@@ -12,6 +12,8 @@ public class TestSimpleInitializedSetter {
 	}
 
 	TestSimpleInitializedSetter setI(int i) {
-		return new TestSimpleInitializedSetter(i);
+		TestSimpleInitializedSetter _this = this;
+		_this = new TestSimpleInitializedSetter(i);
+		return _this;
 	}
 }

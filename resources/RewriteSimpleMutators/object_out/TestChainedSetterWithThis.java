@@ -14,6 +14,8 @@ public class TestChainedSetterWithThis {
 	}
 
 	TestChainedSetterWithThis setI(int anInt) {
-		return new TestChainedSetterWithThis(anInt, anInt);
+		TestChainedSetterWithThis _this = this;
+		_this = new TestChainedSetterWithThis(anInt, anInt);
+		return _this;
 	}
 }

@@ -16,6 +16,8 @@ public class TestMultipleFieldsSingleSetter {
 	}
 
 	TestMultipleFieldsSingleSetter setI(int anInt) {
-		return new TestMultipleFieldsSingleSetter(this.i, anInt, this.k);
+		TestMultipleFieldsSingleSetter _this = this;
+		_this = new TestMultipleFieldsSingleSetter(_this.i, anInt, _this.k);
+		return _this;
 	}
 }

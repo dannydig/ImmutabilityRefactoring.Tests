@@ -14,6 +14,9 @@ public class TestMultipleFieldsSetter {
 	}
 
 	TestMultipleFieldsSetter setFields(int anInt1, int anInt2) {
-		return new TestMultipleFieldsSetter(anInt1, anInt2);
+		TestMultipleFieldsSetter _this = this;
+		_this = new TestMultipleFieldsSetter(anInt1, _this.j);
+		_this = new TestMultipleFieldsSetter(_this.i, anInt2);
+		return _this;
 	}
 }

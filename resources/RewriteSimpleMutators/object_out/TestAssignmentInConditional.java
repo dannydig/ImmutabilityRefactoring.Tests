@@ -4,13 +4,13 @@ public class TestAssignmentInConditional {
 	private final int i;
 
 	public TestAssignmentInConditional() {
-		i = 0;
+		this.i = 0;
 	}
 
 	public TestAssignmentInConditional(int anInt) {
 		i = anInt;
 	}
-	
+
 	TestAssignmentInConditional setI(int anInt) {
 		TestAssignmentInConditional _this = this;
 		System.out.println();

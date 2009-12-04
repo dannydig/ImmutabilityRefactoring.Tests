@@ -14,6 +14,9 @@ public class TestMultipleFieldsSetterReverseOrder {
 	}
 
 	TestMultipleFieldsSetterReverseOrder setFields(int anInt1, int anInt2) {
-		return new TestMultipleFieldsSetterReverseOrder(anInt1, anInt2);
+		TestMultipleFieldsSetterReverseOrder _this = this;
+		_this = new TestMultipleFieldsSetterReverseOrder(_this.i, anInt2);
+		_this = new TestMultipleFieldsSetterReverseOrder(anInt1, _this.j);
+		return _this;
 	}
 }

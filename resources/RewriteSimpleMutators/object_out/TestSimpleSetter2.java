@@ -12,6 +12,8 @@ public class TestSimpleSetter2 {
 	}
 
 	TestSimpleSetter2 setI(int i) {
-		return new TestSimpleSetter2(i);
+		TestSimpleSetter2 _this = this;
+		_this = new TestSimpleSetter2(i);
+		return _this;
 	}
 }

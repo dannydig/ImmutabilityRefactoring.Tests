@@ -12,6 +12,8 @@ public class TestSetterWithoutDefaultConstructor2 {
 	}
 
 	TestSetterWithoutDefaultConstructor2 setI(int anInt) {
-		return new TestSetterWithoutDefaultConstructor2(anInt);
+		TestSetterWithoutDefaultConstructor2 _this = this;
+		_this = new TestSetterWithoutDefaultConstructor2(anInt);
+		return _this;
 	}
 }

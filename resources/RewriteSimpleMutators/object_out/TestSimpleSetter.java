@@ -12,6 +12,8 @@ public class TestSimpleSetter {
 	}
 
 	TestSimpleSetter setI(int anInt) {
-		return new TestSimpleSetter(anInt);
+		TestSimpleSetter _this = this;
+		_this = new TestSimpleSetter(anInt);
+		return _this;
 	}
 }

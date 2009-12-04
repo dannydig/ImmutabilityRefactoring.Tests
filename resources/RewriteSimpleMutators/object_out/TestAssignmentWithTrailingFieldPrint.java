@@ -1,10 +1,10 @@
-wpackage object_out;
+package object_out;
 
 public class TestAssignmentWithTrailingFieldPrint {
 	private final int i;
 
 	public TestAssignmentWithTrailingFieldPrint() {
-		i = 0;
+		this.i = 0;
 	}
 
 	public TestAssignmentWithTrailingFieldPrint(int anInt) {
